@@ -1,0 +1,36 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.topicObject{
+    font-size: 200%;
+    margin: 10%;
+}
+.subjects a p{
+    size: 20% !important;
+}
+.shapeMid{
+    text-align: center;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-color: #239;
+}
+.midLevel{
+    margin: 0;
+    position: relative;
+    left: 5%;
+}
+
+.shapeLevel{
+    width:100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.advancedLevel{
+    margin: 0%;
+    position: relative;
+    left: 5%;
+
+}

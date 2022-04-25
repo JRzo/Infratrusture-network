@@ -1,0 +1,62 @@
+main{
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
+.divTeam{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #000;
+}
+.divTeam h1{
+    overflow: hidden;
+}
+
+p, img, h6, h3, a{
+    overflow: hidden;
+}
+.carousel, .carousel img, .carousel-indicators{
+    width: 70%;
+    margin: auto;
+}
+p{
+
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    display: block;
+}
+.infoPeople{
+    overflow: hidden;
+
+    width: 80%;
+    margin: auto;
+}
+.infoPeople h1{
+    text-align: center;
+    text-overflow: ellipsis;
+    letter-spacing: 15px;
+    animation-name: reviewName;
+    animation-duration: 5s;
+
+}
+@keyframes reviewName{
+    0%{
+        transform: rotateX(20);
+        font-size: 40000%;
+    }
+    50%{
+        transform: rotateX(10);
+        font-size: 300%;
+    }
+
+    100%{
+        transform:rotateX(5);
+        font-size: 1200%;
+    }
+}
+.infoPeople section{
+    box-shadow: 2px 2px 2px 1px #000;
+    text-decoration: wavy;
+    /* border: solid 2px #000; */
+}
